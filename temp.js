@@ -2,16 +2,17 @@
 // @name         hello world
 // @namespace    http://tampermonkey.net/
 // @version      2024-09-10
-// @description  try to take over the world!
+// @description  new script
 // @author       zdw
-// @match        *://*/*
+// @match        *://*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+// @license      AGPL-3.0
 // @grant        none
 // ==/UserScript==
 
 (function() {
     'use strict';
 
-    console.log('hello world');
-    
+    console.log('hello world!');
+
 })();
